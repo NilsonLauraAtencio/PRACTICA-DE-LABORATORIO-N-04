@@ -1,0 +1,37 @@
+\section{MARCO TEORICO} 
+
+\subsection{DOCKER}
+Es una plataforma de contener independiente moderna para la innovacion de alta velocidad que permite a las organizaciones crear, compartir y ejecutar sin problemas cualquier aplicación, en cualquier lugar, por ejemplo en la nube hibrida.
+Este software de TI, es una tecnología para crear contenedores y/o usar contenedores de Linux.
+\\Con DOCKER, puede usar los contenedores como máquinas virtuales extremadamente livianas y modulares. 
+ En Docker lo que se hace es usar las funcionalidades del Kernel para encapsular un sistema, de esta forma el proyecto que corre dentro de el no tendrá conocimiento que está en un contenedor. Además, obtiene flexibilidad con estos contenedores: puede crearlos, implementarlos, copiarlos y moverlos de un entorno a otro, lo cual le permite optimizar sus aplicaciones para la nube.
+\begin {itemize}
+	\item ¿Qué son los contenedores?\\\\
+	Docker trabaja con “contenedores de Linux” estos son un conjunto de tecnologías que juntas forman un contenedor en Docker, los conjuntos de tecnologías se llaman:
+	\subitem • Namespaces: Permite a la aplicación que corre en un contenedor de Docker tener una vista de los recursos del sistema operativo.
+	\subitem • Cgroups: Permite limitar y medir los recursos que se encuentran disponibles en el sistema operativo.
+	\subitem • Chroot: Permite tener en el contenedor una vista de un sistema “falso” para el mismo, es decir, crea su propio entorno de ejecución con su propio root y home. \\
+	Algunas caracteristicas: 
+\subitem • Los contenedores son más livianos ya que trabajan directamente en Kernel que las maquinas virtuales.
+\subitem • No es necesario instalar un sistema operativo por contenedor.
+\subitem • Menor uso de los recursos de la máquina.
+\subitem • Mayor cantidad de contenedores por equipo físico.
+\subitem • Mejor portabilidad.\\
+	\item Funcionamiento de Docker\\
+	\subitem - El propósito de los contenedores es la independencia, es decir, la capacidad de ejecutar varios procesos y aplicaciones por separado para hacer un mejor uso de su infraestructura y, al mismo tiempo, conservar la seguridad que tendría con sistemas separados.\\
+	\subitem - Las herramientas del contenedor ofrecen un modelo de implementación basado en imágenes.
+	\subitem - Permite compartir una aplicación, o un conjunto de servicios, con todas sus dependencias en varios entornos. \\\\
+	\item Ventajas de los contenedores Docker :\\
+	\subitem - Modularidad: Se centra en tomar una parte de una aplicación, para actualizarla o repararla, sin necesidad de tomar la aplicación completa.\\
+	\subitem - Control de versiones de imágenes y capas: Cada archivo de imagen se compone de una serie de capas y estas van cambiando en una sola imagen. Se crea una capa cuando la imagen cambia y cada vez que se utiliza el comando ejecutar o copiar se crea una nueva capa. 
+El control de versiones es inherente a la creación de capas. Cada vez que se produce un cambio nuevo, básicamente, usted tiene un registro de cambios incorporado: control completo de sus imágenes de contenedor.
+	\subitem - Restauración: Una imagen tiene capas y cuando no se esta conforme con la actual se puede restaurar a la versión anterior. Esto es compatible con un enfoque de desarrollo ágil y permite hacer realidad la integración e implementación continuas (CI/CD) desde una perspectiva de las herramientas.\\
+	\subitem - Implementación rápida: Los contenedores basados en Docker pueden reducir el tiempo de implementación a segundos. debido a que un Sistema Operativo no necesita iniciarse para agregar o mover un contenedor, los tiempos de implementación son sustancialmente inferiores. 
+Además se puede crear y destruir la información creada por sus contenedores sin preocupación, de forma fácil y rentable.\\
+	
+\end{itemize}
+
+
+
+
+
