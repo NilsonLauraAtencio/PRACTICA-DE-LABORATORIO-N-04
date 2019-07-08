@@ -12,6 +12,7 @@ Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
 ("C:\Users\EQUIPO1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo"
 File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
+
 \c@part=\count80
 \c@section=\count81
 \c@subsection=\count82
@@ -24,6 +25,7 @@ File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+
 ("C:\Users\EQUIPO1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.st
 y"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
@@ -38,6 +40,7 @@ Package: babel 2018/11/13 3.27 The Babel package
 ef"
 File: switch.def 2018/11/13 3.27 Babel switching mechanism
 )
+
 *************************************
 * Local config file bblopts.cfg used
 *
@@ -115,6 +118,7 @@ Package ifvtex Info: VTeX not detected.
 x.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
+
 \Gm@cnth=\count91
 \Gm@cntv=\count92
 \c@Gm@tempcnt=\count93
@@ -138,6 +142,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks20
 \@floatcapt=\box28
 )
+
 ("C:\Users\EQUIPO1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.
 sty"
 Package: amsmath 2018/12/01 v2.17b AMS math features
@@ -160,10 +165,12 @@ ty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen115
 )
+
 ("C:\Users\EQUIPO1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.s
 ty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
+
 \inf@bad=\count95
 LaTeX Info: Redefining \frac on input line 223.
 \uproot@=\count96
@@ -201,7 +208,9 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
+
 )
+
 ("C:\Users\EQUIPO1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\stackre
 l.sty"
 Package: stackrel 2016/05/16 v1.3 Adding subscript option to stackrel (HO)
@@ -227,6 +236,7 @@ Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 ("C:\Users\EQUIPO1\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcm
 ds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -240,11 +250,13 @@ Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
 \multirow@cntb=\count107
 \multirow@dima=\skip47
 \bigstrutjot=\dimen123
+
 )
 ("C:\Users\EQUIPO1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\enumerate.
 sty"
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks26
+
 )
 (C:/Users/EQUIPO1/Downloads/InformeLab-N-04-master/Informe4\InformeLaboratorio0
 4.aux
@@ -263,6 +275,7 @@ LaTeX Info: Redefining \% on input line 6.
 05.aux)
 (C:/Users/EQUIPO1/Downloads/InformeLab-N-04-master/Informe4\Secciones/Actividad
 06.aux))
+
 \openout1 = `InformeLaboratorio04.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -278,4 +291,6 @@ LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Info: Redefining \. on input line 18.
+
+
 LaTeX Info: Redefining \% on input line 18.
